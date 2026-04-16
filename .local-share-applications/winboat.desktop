@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=winboat
+Comment=Windows for Penguins
+Icon=/home/rick/apps/.icons/winboat
+TryExec=/home/rick/apps/winboat.appimage
+Exec=env DESKTOPINTEGRATION=1 /home/rick/apps/winboat.appimage --no-sandbox %U
+Terminal=false
+Categories=Utility;
+StartupWMClass=winboat
+X-AppImage-Version=0.9.0
+X-AppImage-Name=winboat

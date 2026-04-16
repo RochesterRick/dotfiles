@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Estlcam
+MimeType=application/x-wine-extension-e12;
+Exec=env "WINEPREFIX=/home/rick/wineprefixes/estclam" wine start /ProgIDOpen "Estlcam V12 Projekt" %f
+NoDisplay=true
+StartupNotify=true
+Icon=F1A0_Estlcam12_CAM.0

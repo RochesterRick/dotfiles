@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=WayVR
+Comment=Your way to enjoy VR on Linux
+Icon=/home/rick/apps/.icons/wayvr
+TryExec=/home/rick/apps/wayvr.appimage
+Exec=/home/rick/apps/wayvr.appimage
+Terminal=true
+Categories=Utility;X-WiVRn-VR;
+X-XR-Plugin=true
+X-XR-Plugin-Exec=wayvr --openxr
+X-AppImage-Version=v26.2.1
+X-AppImage-Name=WayVR

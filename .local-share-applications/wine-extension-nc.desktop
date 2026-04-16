@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Estlcam
+MimeType=application/x-netcdf;
+Exec=env "WINEPREFIX=/home/rick/wineprefixes/estclam" wine start /ProgIDOpen "CNC Programm" %f
+NoDisplay=true
+StartupNotify=true
+Icon=10D5_Estlcam12_CNC.0

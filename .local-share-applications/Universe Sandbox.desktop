@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Universe Sandbox
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/230290
+Icon=steam_icon_230290
+Terminal=false
+Type=Application
+Categories=Game;

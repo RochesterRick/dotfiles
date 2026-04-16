@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=DOOM Eternal
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/782330
+Icon=steam_icon_782330
+Terminal=false
+Type=Application
+Categories=Game;

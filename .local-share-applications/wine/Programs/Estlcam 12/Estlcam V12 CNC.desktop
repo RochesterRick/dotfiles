@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Estlcam V12 CNC
+Exec=env "WINEPREFIX=/home/rick/wineprefixes/estclam" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Estlcam 12\\\\Estlcam V12 CNC.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/rick/wineprefixes/estclam/drive_c/ProgramData/Estlcam/V12
+Icon=5378_CNC.0
+StartupWMClass=estlcam12_cnc.exe

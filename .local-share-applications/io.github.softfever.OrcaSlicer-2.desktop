@@ -1,0 +1,13 @@
+[Desktop Entry]
+Exec=/usr/bin/flatpak run --branch=master --arch=x86_64 --command=entrypoint --file-forwarding io.github.softfever.OrcaSlicer @@u %U @@
+GenericName=3D Printing Software
+Icon=io.github.softfever.OrcaSlicer
+Keywords=3D;Printing;Slicer;slice;3D;printer;convert;gcode;stl;obj;amf;SLA
+MimeType=model/stl;model/3mf;application/vnd.ms-3mfdocument;application/prs.wavefront-obj;application/x-amf;x-scheme-handler/orcaslicer;
+Name=OrcaSlicer-2
+StartupNotify=false
+StartupWMClass=orca-slicer
+Terminal=false
+Type=Application
+X-Desktop-File-Install-Version=0.28
+X-Flatpak=io.github.softfever.OrcaSlicer

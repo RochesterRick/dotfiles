@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Arizona Sunshine® 2
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/1540210
+Icon=steam_icon_1540210
+Terminal=false
+Type=Application
+Categories=Game;

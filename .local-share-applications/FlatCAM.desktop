@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=FlatCAM
+Exec=/home/rick/flatcam/.venv/bin/python /home/rick/flatcam/flatcam.py
+Comment=
+Terminal=false
+PrefersNonDefaultGPU=false
+Icon=/home/rick/flatcam/download.png
+Type=Application

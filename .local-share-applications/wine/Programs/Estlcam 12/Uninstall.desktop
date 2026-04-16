@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Uninstall
+Exec=env "WINEPREFIX=/home/rick/wineprefixes/estclam" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Estlcam 12\\\\Uninstall.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/rick/wineprefixes/estclam/drive_c/ProgramData/Estlcam/V12
+Icon=F43E_Uninstall.0
+StartupWMClass=uninstall.exe

@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=/home/rick/Programs/ArduinoIDE/arduino-ide_2.3.7_Linux_64bit.AppImage
+GenericName[en_US]=
+GenericName=
+Icon=/home/rick/Programs/ArduinoIDE/Arduino_IDE_logo.svg.png
+MimeType=
+Name[en_US]=ArduinoIDE2.x
+Name=ArduinoIDE2.x
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Universal Gcode Sender
+Comment=Control your CNC machine
+Path=/home/rick/Programs/ugsplatform-linux-x64/bin
+Exec=/home/rick/Programs/ugsplatform-linux-x64/bin/ugsplatform %F
+Icon=/home/rick/Programs/ugsplatform-linux-x64/bin/icon.svg
+MimeType=text/x-gcode
+Terminal=false
+StartupWMClass=Universal Gcode Sender
+Categories=Development;Utility;
+Keywords=ugs

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LIV
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/755540
+Icon=steam_icon_755540
+Terminal=false
+Type=Application
+Categories=Game;

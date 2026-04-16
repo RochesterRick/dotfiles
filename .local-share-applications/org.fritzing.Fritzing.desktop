@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Development;IDE;Electronics;
+Comment=Create circuits and lay out printed circuit boards
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=Fritzing --file-forwarding org.fritzing.Fritzing @@ %F @@
+GenericName=PCB Design
+Icon=org.fritzing.Fritzing
+Keywords=EDA;PCB;prototype;circuit;schematic;
+MimeType=application/x-fritzing-fz;application/x-fritzing-fzz;application/x-fritzing-fzp;application/x-fritzing-fzpz;application/x-fritzing-fzb;application/x-fritzing-fzbz;application/x-fritzing-fzm;
+Name=Fritzing
+NoDisplay=false
+Path=
+StartupNotify=true
+StartupWMClass=Fritzing
+Terminal=false
+TerminalOptions=
+Type=Application
+X-Flatpak=org.fritzing.Fritzing
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=OrcaSlicer (Auto Sync)
+Comment=Launch OrcaSlicer and pull config from GitHub
+Exec=/home/rick/.local/bin/orca-git.sh
+Icon=io.github.softfever.OrcaSlicer
+Type=Application
+Categories=Graphics;Engineering;
+Terminal=false

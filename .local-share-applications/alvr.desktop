@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ALVR
+Comment=ALVR VR Streaming
+Exec=/home/rick/.local/share/alvr/streamer/bin/alvr_dashboard
+Icon=applications-games
+Terminal=false
+Type=Application
+Categories=Game;

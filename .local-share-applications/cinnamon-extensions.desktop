@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Cinnamon Extensions
+Comment=Manage Cinnamon extensions
+Exec=cinnamon-settings extensions
+Icon=cs-extensions
+Terminal=false
+Categories=Settings;DesktopSettings;
+Keywords=Cinnamon;Extensions;Desklets;Applets;Themes;
+StartupNotify=true

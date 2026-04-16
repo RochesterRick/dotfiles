@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Arduino IDE 1.8
+Comment=Arduino IDE 1.8
+Exec=/home/rick/Programs/arduino-1.8.19/arduino
+Icon=/home/rick/Programs/arduino-1.8.19/lib/arduino-icon.png
+Terminal=false
+Categories=Development;
+NoDisplay=false
+Hidden=false
+StartupNotify=true

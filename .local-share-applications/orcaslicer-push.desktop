@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=OrcaSlicer (Push Settings)
+Comment=Commit + push OrcaSlicer settings to GitHub
+Exec=/home/rick/.local/bin/orca-push.sh
+Icon=io.github.softfever.OrcaSlicer
+Type=Application
+Categories=Graphics;Engineering;
+Terminal=true
+StartupNotify=true

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Estlcam V12 CAM
+Exec=env "WINEPREFIX=/home/rick/wineprefixes/estclam" wine "C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Estlcam 12\\\\Estlcam V12 CAM.lnk"
+Type=Application
+StartupNotify=true
+Path=/home/rick/wineprefixes/estclam/drive_c/ProgramData/Estlcam/V12
+Icon=B20D_CAM.0
+StartupWMClass=estlcam12_cam.exe
