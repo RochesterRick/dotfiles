@@ -1,1 +1,9 @@
 Updating dotfiles...
+[main 39b74eb] Update dotfiles
+ 5 files changed, 28 insertions(+), 17 deletions(-)
+ create mode 100755 .local-share-applications/Satisfactory.desktop
+ create mode 100644 log.txt
+To github.com:RochesterRick/dotfiles.git
+   8fd54d1..39b74eb  main -> main
+Done.
+Updating dotfiles...

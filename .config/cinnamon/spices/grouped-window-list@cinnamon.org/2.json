@@ -375,7 +375,8 @@
             "realvnc-vncviewer.desktop",
             "orcaslicer-git.desktop",
             "brave-browser.desktop",
-            "Satisfactory.desktop"
+            "Satisfactory.desktop",
+            "tv.kodi.Kodi.desktop:flatpak"
         ]
     },
     "__md5__": "3df0dfb46c743f29a6405292b645807a"
