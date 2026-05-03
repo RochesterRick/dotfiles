@@ -145,7 +145,7 @@
             }
         ],
         "default_category": "Linux Mint",
-        "value": "linuxmint-logo-ring-symbolic"
+        "value": "/home/rick/Pictures/f19b47a9-af7e-42cc-a56d-8284975261b5.png"
     },
     "menu-icon-size": {
         "type": "spinbutton",
@@ -156,7 +156,7 @@
         "units": "px",
         "description": "Icon size",
         "dependency": "menu-custom",
-        "value": 32
+        "value": 50.0
     },
     "menu-label": {
         "type": "entry",
@@ -169,7 +169,7 @@
         "type": "switch",
         "default": true,
         "description": "Use symbolic icons for categories",
-        "value": true
+        "value": false
     },
     "category-icon-size": {
         "type": "spinbutton",
@@ -179,7 +179,7 @@
         "step": 1,
         "units": "px",
         "description": "Categories icon size",
-        "value": 22
+        "value": 17.0
     },
     "application-icon-size": {
         "type": "spinbutton",
@@ -269,7 +269,7 @@
             "At the top": "top",
             "At the bottom": "bottom"
         },
-        "value": "bottom"
+        "value": "top"
     },
     "sidebar-icon-size": {
         "type": "spinbutton",
@@ -295,25 +295,25 @@
         "type": "switch",
         "default": true,
         "description": "Favorites",
-        "value": true
+        "value": false
     },
     "show-recents": {
         "type": "switch",
         "default": true,
         "description": "Recents",
-        "value": true
+        "value": false
     },
     "show-description": {
         "type": "switch",
         "default": true,
         "description": "Show application descriptions",
-        "value": true
+        "value": false
     },
     "category-hover": {
         "type": "switch",
         "default": true,
         "description": "Change categories on hover",
-        "value": true
+        "value": false
     },
     "enable-autoscroll": {
         "type": "switch",
@@ -361,7 +361,7 @@
     "popup-height": {
         "type": "generic",
         "default": 425,
-        "value": 611.6286315917969
+        "value": 822.1311645507812
     },
     "reset-menu-size-button": {
         "type": "button",

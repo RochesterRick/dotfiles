@@ -361,7 +361,7 @@
     "popup-height": {
         "type": "generic",
         "default": 425,
-        "value": 425
+        "value": 871.3617858886719
     },
     "reset-menu-size-button": {
         "type": "button",
