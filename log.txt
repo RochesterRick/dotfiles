@@ -13,3 +13,9 @@ To github.com:RochesterRick/dotfiles.git
    39b74eb..b101038  main -> main
 Done.
 Updating dotfiles...
+[main b3ec7fe] Update dotfiles
+ 5 files changed, 38 insertions(+), 28 deletions(-)
+To github.com:RochesterRick/dotfiles.git
+   b101038..b3ec7fe  main -> main
+Done.
+Updating dotfiles...
