@@ -18,6 +18,7 @@ application/vnd.rn-realmedia-vbr=shotcut.desktop;
 application/winhlp=wine-extension-hlp.desktop;
 application/x-amf=io.github.softfever.OrcaSlicer-2.desktop;
 application/x-cd-image=shotcut.desktop;
+application/x-cursor-workspace=cursor.desktop;
 application/x-extension-m4a=shotcut.desktop;
 application/x-extension-mp4=shotcut.desktop;
 application/x-flac=shotcut.desktop;

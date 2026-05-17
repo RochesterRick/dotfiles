@@ -1,0 +1,31 @@
+[Desktop Entry]
+Type=Application
+Name=Cursor
+GenericName=Text Editor
+Comment=The AI Code Editor.
+Icon=/home/rick/apps/.icons/cursor.png
+TryExec=/home/rick/apps/cursor.appimage
+Exec=env DESKTOPINTEGRATION=1 /home/rick/apps/cursor.appimage %F
+MimeType=application/x-cursor-workspace;
+Categories=Development;IDE;
+Keywords=cursor;
+StartupNotify=false
+StartupWMClass=Cursor
+Actions=new-empty-window;
+X-AppImage-Version=3.4.17
+X-AppImage-Name=Cursor
+
+[Desktop Action new-empty-window]
+Name=New Empty Window
+Name[cs]=Nové prázdné okno
+Name[de]=Neues leeres Fenster
+Name[es]=Nueva ventana vacía
+Name[fr]=Nouvelle fenêtre vide
+Name[it]=Nuova finestra vuota
+Name[ja]=新しい空のウィンドウ
+Name[ko]=새 빈 창
+Name[ru]=Новое пустое окно
+Name[zh_CN]=新建空窗口
+Name[zh_TW]=開新空視窗
+Icon=/home/rick/apps/.icons/cursor
+Exec=/home/rick/apps/cursor.appimage --new-window %F
