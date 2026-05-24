@@ -25,3 +25,10 @@ To github.com:RochesterRick/dotfiles.git
    b3ec7fe..13fa07e  main -> main
 Done.
 Updating dotfiles...
+[main 4ca4b13] Update dotfiles
+ 6 files changed, 54 insertions(+), 13 deletions(-)
+ create mode 100644 .local-share-applications/cursor.desktop
+To github.com:RochesterRick/dotfiles.git
+   13fa07e..4ca4b13  main -> main
+Done.
+Updating dotfiles...
