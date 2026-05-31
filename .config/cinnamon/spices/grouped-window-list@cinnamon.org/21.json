@@ -367,16 +367,9 @@
         ],
         "value": [
             "nemo.desktop",
-            "firefox.desktop",
-            "brave-browser.desktop",
+            "brave-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default.desktop",
             "org.gnome.Terminal.desktop",
-            "minecraft-launcher.desktop",
-            "mintinstall.desktop",
-            "realvnc-vncviewer.desktop",
-            "orcaslicer-git.desktop",
-            "Satisfactory.desktop",
-            "tv.kodi.Kodi.desktop:flatpak",
-            "org.openrgb.OpenRGB.desktop"
+            "brave-browser.desktop"
         ]
     },
     "__md5__": "3df0dfb46c743f29a6405292b645807a"
