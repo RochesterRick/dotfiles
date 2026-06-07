@@ -371,7 +371,8 @@
             "org.gnome.Terminal.desktop",
             "brave-browser.desktop",
             "blueman-manager.desktop",
-            "brave-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default.desktop"
+            "brave-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default.desktop",
+            "dev.zed.Zed.desktop"
         ]
     },
     "__md5__": "3df0dfb46c743f29a6405292b645807a"

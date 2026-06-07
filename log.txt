@@ -38,3 +38,11 @@ To github.com:RochesterRick/dotfiles.git
    4ca4b13..eee5e66  main -> main
 Done.
 Updating dotfiles...
+[main 584970c] Update dotfiles
+ 6 files changed, 38 insertions(+), 28 deletions(-)
+ rename .config/cinnamon/spices/grouped-window-list@cinnamon.org/{2.json => 21.json} (96%)
+ create mode 100644 .local-share-applications/brave-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default.desktop
+To github.com:RochesterRick/dotfiles.git
+   eee5e66..584970c  main -> main
+Done.
+Updating dotfiles...

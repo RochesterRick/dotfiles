@@ -120,3 +120,8 @@ fi
 
 # My stuff
 fastfetch
+alias powerlow='powerprofilesctl set power-saver'
+alias powerbal='powerprofilesctl set balanced'
+alias powermax='powerprofilesctl set performance'
+
+alias powercheck='powerprofilesctl get'
