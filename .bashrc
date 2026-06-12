@@ -87,8 +87,33 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
+# Alias's to modified commands
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='trash -v'
+alias mkdir='mkdir -p'
+alias ps='ps auxf'
+alias ping='ping -c 10'
+alias less='less -R'
+alias cls='clear'
 alias ll='ls -alF'
+alias update='sudo apt update && sudo apt upgrade'
+alias ssh94='ssh rick@192.168.1.94'
+alias ssh73='ssh rick@192.168.1.73'
+alias ssh77='ssh pi@192.168.1.77'
+alias ssh85='ssh godzilla@192.168.1.85'
+alias ssh107='ssh rick@192.168.1.107'
+alias ssh80='ssh pi@192.168.1.80'
+
+# Change directory aliases
+alias home='cd ~'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
+# some more ls aliases'
 alias la='ls -A'
 alias l='ls -CF'
 

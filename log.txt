@@ -46,3 +46,10 @@ To github.com:RochesterRick/dotfiles.git
    eee5e66..584970c  main -> main
 Done.
 Updating dotfiles...
+[main b958a37] Update dotfiles
+ 9 files changed, 73 insertions(+), 20 deletions(-)
+ create mode 100755 .local-share-applications/dev.zed.Zed.desktop
+ create mode 100644 .local-share-applications/ipscan.desktop
+To github.com:RochesterRick/dotfiles.git
+   584970c..b958a37  main -> main
+Done.
