@@ -370,7 +370,8 @@
             "brave-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default.desktop",
             "org.gnome.Terminal.desktop",
             "brave-browser.desktop",
-            "blueman-manager.desktop"
+            "blueman-manager.desktop",
+            "tabby.desktop"
         ]
     },
     "__md5__": "3df0dfb46c743f29a6405292b645807a"

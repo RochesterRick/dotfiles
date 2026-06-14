@@ -9,5 +9,5 @@ Icon=/home/rick/Programs/ugsplatform-linux-x64/bin/icon.svg
 MimeType=text/x-gcode
 Terminal=false
 StartupWMClass=Universal Gcode Sender
-Categories=X-RaspberryPi-Robots;
+Categories=X-RaspberryPi-Robots;Development;Engineering;
 Keywords=ugs

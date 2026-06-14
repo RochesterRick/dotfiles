@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Tabby
+Comment=A terminal for a modern age
+Icon=/home/rick/apps/.icons/tabby
+TryExec=/home/rick/apps/tabby.appimage
+Exec=env DESKTOPINTEGRATION=1 /home/rick/apps/tabby.appimage --no-sandbox %U
+Terminal=false
+Categories=Terminals;TerminalEmulator;
+StartupWMClass=tabby
+X-AppImage-Version=1.0.234
+X-AppImage-Name=Tabby
+MimeType=text/html;x-scheme-handler/tabby;

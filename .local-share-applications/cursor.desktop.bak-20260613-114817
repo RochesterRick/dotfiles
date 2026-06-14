@@ -7,7 +7,7 @@ Icon=/home/rick/apps/.icons/cursor.png
 TryExec=/home/rick/apps/cursor.appimage
 Exec=env DESKTOPINTEGRATION=1 /home/rick/apps/cursor.appimage %F
 MimeType=application/x-cursor-workspace;
-Categories=X-AI-Coding;
+Categories=Development;IDE;
 Keywords=cursor;
 StartupNotify=false
 StartupWMClass=Cursor

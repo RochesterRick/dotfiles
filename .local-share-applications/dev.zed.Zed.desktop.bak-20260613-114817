@@ -8,7 +8,7 @@ TryExec=/home/rick/.local/zed.app/bin/zed
 StartupNotify=true
 Exec=/home/rick/.local/zed.app/bin/zed %U
 Icon=/home/rick/.local/zed.app/share/icons/hicolor/512x512/apps/zed.png
-Categories=X-AI-Coding;
+Categories=Utility;TextEditor;Development;IDE;
 Keywords=zed;
 # To add Zed to "Open Folder With..." context menu, add `inode/directory` to the MimeType field (semicolon separated)
 # Arch linux users have reported this setting Zed as default file browser. See https://github.com/zed-industries/zed/pull/39076 and related issues.

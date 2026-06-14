@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=HDMI Capture Viewer
+Comment=Open USB HDMI capture card with audio
+Exec=/home/rick/bin/capture-card.sh
+Icon=camera-video
+Terminal=false
+Categories=AudioVideo;Video;
