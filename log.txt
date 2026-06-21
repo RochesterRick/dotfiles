@@ -54,3 +54,93 @@ To github.com:RochesterRick/dotfiles.git
    584970c..b958a37  main -> main
 Done.
 Updating dotfiles...
+[main 05ea769] Update dotfiles
+ 91 files changed, 5831 insertions(+), 18 deletions(-)
+ create mode 100644 .local-share-applications/Alacritty.desktop
+ create mode 100644 .local-share-applications/Alacritty.desktop.bak-20260613-114930
+ create mode 100755 .local-share-applications/Arduino IDE1.8.desktop.bak-20260613-114817
+ create mode 100755 .local-share-applications/Arduino IDE1.8.desktop.bak-20260613-114930
+ create mode 100755 .local-share-applications/ArduinoIDE2.x.desktop.bak-20260613-114817
+ create mode 100755 .local-share-applications/ArduinoIDE2.x.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/Waydroid.desktop
+ create mode 100644 .local-share-applications/arduino-arduinoide.desktop
+ create mode 100644 .local-share-applications/arduino-arduinoide.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/arduino.desktop
+ create mode 100644 .local-share-applications/arduino.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/bulky.desktop
+ create mode 100755 .local-share-applications/capture-card.desktop
+ create mode 100644 .local-share-applications/cinnamon-onscreen-keyboard.desktop
+ create mode 100644 .local-share-applications/code.desktop
+ create mode 100644 .local-share-applications/code.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/com.gexperts.Tilix.desktop
+ create mode 100644 .local-share-applications/com.gexperts.Tilix.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/cursor.desktop.bak-20260613-114817
+ create mode 100644 .local-share-applications/cursor.desktop.bak-20260613-114930
+ create mode 100755 .local-share-applications/dev.zed.Zed.desktop.bak-20260613-114817
+ create mode 100755 .local-share-applications/dev.zed.Zed.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/doublecmd.desktop
+ create mode 100644 .local-share-applications/idle-python3.12.desktop
+ create mode 100644 .local-share-applications/idle-python3.12.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/idle.desktop
+ create mode 100644 .local-share-applications/idle.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/kitty.desktop
+ create mode 100644 .local-share-applications/kitty.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/micro.desktop
+ create mode 100644 .local-share-applications/micro.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/org.gnome.FileRoller.desktop
+ create mode 100644 .local-share-applications/org.gnome.Terminal.desktop
+ create mode 100644 .local-share-applications/org.gnome.Terminal.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/org.gnome.baobab.desktop
+ create mode 100644 .local-share-applications/org.kde.ark.desktop
+ create mode 100644 .local-share-applications/org.kde.filelight.desktop
+ create mode 100644 .local-share-applications/org.kde.kalarm.desktop
+ create mode 100644 .local-share-applications/org.kde.kate.desktop
+ create mode 100644 .local-share-applications/org.kde.kate.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/org.kde.kcalc.desktop
+ create mode 100644 .local-share-applications/org.kde.kcharselect.desktop
+ create mode 100644 .local-share-applications/org.kde.kfind.desktop
+ create mode 100644 .local-share-applications/org.kde.knotes.desktop
+ create mode 100644 .local-share-applications/org.kde.kompare.desktop
+ create mode 100644 .local-share-applications/org.kde.kompare.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/org.kde.konsole.desktop
+ create mode 100644 .local-share-applications/org.kde.konsole.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/org.kde.kteatime.desktop
+ create mode 100644 .local-share-applications/org.kde.ktimer.desktop
+ create mode 100644 .local-share-applications/org.kde.kwrite.desktop
+ create mode 100644 .local-share-applications/org.kde.kwrite.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/org.kde.okteta.desktop
+ create mode 100644 .local-share-applications/org.kde.plasma.emojier.desktop
+ create mode 100644 .local-share-applications/org.kde.sweeper.desktop
+ create mode 100644 .local-share-applications/org.kde.umbrello.desktop
+ create mode 100644 .local-share-applications/org.kde.umbrello.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/org.raspberrypi.rpi-imager.desktop
+ create mode 100644 .local-share-applications/org.raspberrypi.rpi-imager.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/proton-pass.desktop
+ create mode 100644 .local-share-applications/scrcpy-console.desktop
+ create mode 100644 .local-share-applications/scrcpy-console.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/scrcpy.desktop
+ create mode 100644 .local-share-applications/scrcpy.desktop.bak-20260613-114930
+ create mode 100755 .local-share-applications/sidequest.desktop.bak-20260613-114817
+ create mode 100755 .local-share-applications/sidequest.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/sqlitebrowser.desktop
+ create mode 100644 .local-share-applications/sqlitebrowser.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/tabby.desktop
+ create mode 100644 .local-share-applications/tabby.desktop.bak-20260613-114817
+ create mode 100644 .local-share-applications/tabby.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/terminator.desktop
+ create mode 100644 .local-share-applications/terminator.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/ugs.desktop.bak-20260613-114817
+ create mode 100644 .local-share-applications/ugs.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/vim.desktop
+ create mode 100644 .local-share-applications/vim.desktop.bak-20260613-114930
+ create mode 100644 .local-share-applications/waydroid.app.install.desktop
+ create mode 100644 .local-share-applications/waydroid.market.desktop
+To github.com:RochesterRick/dotfiles.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:RochesterRick/dotfiles.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Updating dotfiles...

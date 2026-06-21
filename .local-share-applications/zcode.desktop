@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ZCode
+Comment=ZCode Desktop App
+Exec="/home/rick/apps/zcode.appimage" "--no-sandbox" %U
+Terminal=false
+Type=Application
+Icon=zcode
+Categories=Development;
+MimeType=x-scheme-handler/zcode;
+StartupWMClass=ZCode

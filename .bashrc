@@ -99,7 +99,7 @@ alias cls='clear'
 alias ll='ls -alF'
 alias update='sudo apt update && sudo apt upgrade'
 alias ssh94='ssh rick@192.168.1.94'
-alias ssh73='ssh rick@192.168.1.73'
+alias ssh73='ssh pi@192.168.1.73'
 alias ssh77='ssh pi@192.168.1.77'
 alias ssh85='ssh godzilla@192.168.1.85'
 alias ssh107='ssh rick@192.168.1.107'
@@ -112,6 +112,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
+alias fixpanel='(cinnamon --replace >/tmp/cinnamon.log 2>&1 &)'
 
 # some more ls aliases'
 alias la='ls -A'
@@ -148,5 +149,13 @@ fastfetch
 alias powerlow='powerprofilesctl set power-saver'
 alias powerbal='powerprofilesctl set balanced'
 alias powermax='powerprofilesctl set performance'
-
 alias powercheck='powerprofilesctl get'
+
+echo
+echo "Useful aliases:"
+echo "  fixpanel   - restart Cinnamon panels"
+echo "  powerlow   - low power mode"
+echo "  powerbal   - balanced power mode"
+echo "  powermax   - max performance mode"
+echo "  powercheck - show current power mode"
+echo

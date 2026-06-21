@@ -291,4 +291,5 @@ x-scheme-handler/rtp=shotcut.desktop;
 x-scheme-handler/rtsp=shotcut.desktop;
 x-scheme-handler/tabby=tabby.desktop;
 x-scheme-handler/vrmonitor=valve-vrmonitor.desktop;
+x-scheme-handler/zcode=zcode.desktop;
 x-scheme-handler/zed=dev.zed.Zed.desktop;
