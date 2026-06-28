@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=shapez 2 - Factory
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/2162800
+Icon=steam_icon_2162800
+Terminal=false
+Type=Application
+Categories=Game;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ESP32 Serial Watcher
+Comment=Monitor ESP32 serial ports with auto reconnect and boot capture
+Exec=/home/rick/serialwatcher/dist/ESP32-Serial-Watcher
+Terminal=false
+Categories=Development;Electronics;Utility;
+StartupNotify=true
+Icon=/home/rick/serialwatcher/icon.png

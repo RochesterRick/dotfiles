@@ -154,8 +154,72 @@ alias powercheck='powerprofilesctl get'
 echo
 echo "Useful aliases:"
 echo "  fixpanel   - restart Cinnamon panels"
-echo "  powerlow   - low power mode"
-echo "  powerbal   - balanced power mode"
-echo "  powermax   - max performance mode"
-echo "  powercheck - show current power mode"
+echo "  powerlow-low power  powerbal-balanced mode  powermax-max mode  powercheck-show current power mode"
+echo "Codex:"
+echo "  codex --sandbox workspace-write --ask-for-approval never"
+echo "      Auto mode (recommended)"
+echo "  codex --sandbox danger-full-access --ask-for-approval never"
+echo "      Full access" 
+echo "  codex resume"
 echo
+
+# Git quick reference
+gits() {
+cat <<'EOF'
+
+====================== Git Cheats ======================
+
+STATUS
+  git status
+
+VIEW CHANGES
+  git diff
+  git diff --staged
+
+STAGE FILES
+  git add .
+  git add <file>
+
+COMMIT
+  git commit -m "Your message"
+
+SYNC
+  git pull --rebase
+  git push
+
+BRANCHES
+  git branch
+  git switch main
+  git switch <branch>
+  git switch -c <new-branch>
+
+HISTORY
+  git log --oneline --graph --decorate -15
+
+UNDO
+  git restore <file>          # Restore one file
+  git restore .               # Restore all unstaged files
+  git reset --soft HEAD~1     # Undo last commit, keep changes
+
+RECOVERY
+  git reflog
+
+--------------------------------------------------------
+
+Typical Workflow
+
+  git status
+  git add .
+  git commit -m "Describe changes"
+  git pull --rebase
+  git push
+
+If "git push" is rejected:
+
+  git pull --rebase
+  git push
+
+========================================================
+
+EOF
+}
