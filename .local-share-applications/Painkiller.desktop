@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=DOOM Eternal
+Name=Painkiller
 Comment=Play this game on Steam
-Exec=steam steam://rungameid/782330
-Icon=steam_icon_782330
+Exec=steam steam://rungameid/2300120
+Icon=steam_icon_2300120
 Terminal=false
 Type=Application
 Categories=Game;

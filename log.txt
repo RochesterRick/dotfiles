@@ -145,3 +145,13 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 Updating dotfiles...
 Updating dotfiles...
+[main a352511] Update dotfiles
+ 8 files changed, 109 insertions(+), 24 deletions(-)
+ delete mode 100644 .config/wireplumber/main.lua.d/51-hdmi-hisense-s16le.lua
+ create mode 100755 .local-share-applications/MineMogul.desktop
+ create mode 100755 .local-share-applications/esp32-serial-watcher.desktop
+ create mode 100755 .local-share-applications/shapez 2 - Factory.desktop
+To github.com:RochesterRick/dotfiles.git
+   6e0330f..a352511  main -> main
+Done.
+Updating dotfiles...

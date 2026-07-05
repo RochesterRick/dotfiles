@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=Cities: Skylines
+Name=Shadow Warrior Classic Redux
 Comment=Play this game on Steam
-Exec=steam steam://rungameid/255710
-Icon=steam_icon_255710
+Exec=steam steam://rungameid/225160
+Icon=steam_icon_225160
 Terminal=false
 Type=Application
 Categories=Game;
