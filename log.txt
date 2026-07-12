@@ -155,3 +155,13 @@ To github.com:RochesterRick/dotfiles.git
    6e0330f..a352511  main -> main
 Done.
 Updating dotfiles...
+[main 16af1be] Update dotfiles
+ 7 files changed, 35 insertions(+), 40 deletions(-)
+ delete mode 100644 .config/cinnamon/spices/favorites@cinnamon.org/9.json
+ rename .local-share-applications/{DOOM Eternal.desktop => Painkiller.desktop} (55%)
+ rename .local-share-applications/{Cities Skylines.desktop => Shadow Warrior Classic Redux.desktop} (51%)
+ delete mode 100755 .local-share-applications/VEIN.desktop
+To github.com:RochesterRick/dotfiles.git
+   a352511..16af1be  main -> main
+Done.
+Updating dotfiles...
