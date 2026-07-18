@@ -30,5 +30,18 @@ mkdir -p "$HOME/.local/share"
 mkdir -p "$HOME/.local/share/applications"
 cp -a "$DOT/.local-share-applications/." "$HOME/.local/share/applications/" 2>/dev/null || true
 
+# Create a convenient Tabby command when the AppImage exists
+if [ -f "$HOME/apps/tabby.appimage" ]; then
+    chmod +x "$HOME/apps/tabby.appimage"
+
+    mkdir -p "$HOME/.local/bin"
+
+    ln -sf "$HOME/apps/tabby.appimage" "$HOME/.local/bin/tabby"
+
+    echo "Tabby command installed."
+else
+    echo "Tabby AppImage not found at $HOME/apps/tabby.appimage"
+fi
+
 echo "Done."
 echo "Run: source ~/.bashrc"
