@@ -27,7 +27,8 @@ if command -v dconf >/dev/null && [ -f "$DOT/dconf-settings.conf" ]; then
 fi
 
 mkdir -p "$HOME/.local/share"
-cp -r "$DOT/.local-share-applications" "$HOME/.local/share/applications" 2>/dev/null || true
+mkdir -p "$HOME/.local/share/applications"
+cp -a "$DOT/.local-share-applications/." "$HOME/.local/share/applications/" 2>/dev/null || true
 
 echo "Done."
 echo "Run: source ~/.bashrc"
