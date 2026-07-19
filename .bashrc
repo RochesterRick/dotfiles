@@ -150,6 +150,7 @@ alias powerlow='powerprofilesctl set power-saver'
 alias powerbal='powerprofilesctl set balanced'
 alias powermax='powerprofilesctl set performance'
 alias powercheck='powerprofilesctl get'
+alias update="sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove -y"
 
 echo
 echo "Useful aliases:"

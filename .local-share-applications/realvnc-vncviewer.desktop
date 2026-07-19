@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=VNC Viewer
+GenericName=VNC Viewer
+Comment=Connect to computers running VNC Server
+Exec=vncviewer %f
+Icon=/usr/share/icons/hicolor/48x48/apps/vncviewer48x48.png
+Terminal=false
+Type=Application
+Categories=Network;Utility;
+Keywords=VNC;Remote;Viewer;
+MimeType=application/vnc-shortcut;
+StartupNotify=true

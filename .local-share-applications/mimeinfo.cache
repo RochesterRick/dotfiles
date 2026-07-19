@@ -12,6 +12,7 @@ application/prs.wavefront-obj=io.github.softfever.OrcaSlicer-2.desktop;
 application/ram=shotcut.desktop;
 application/sdp=shotcut.desktop;
 application/sqlitebrowser=sqlitebrowser.desktop;
+application/vnc-shortcut=realvnc-vncviewer.desktop;
 application/vnd.android.package-archive=org.gnome.FileRoller.desktop;waydroid.app.install.desktop;
 application/vnd.apple.mpegurl=shotcut.desktop;
 application/vnd.db4s-project+xml=sqlitebrowser.desktop;
