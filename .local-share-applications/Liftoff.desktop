@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Liftoff
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/410340
-Icon=steam_icon_410340
-Terminal=false
-Type=Application
-Categories=Game;

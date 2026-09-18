@@ -1,33 +1,32 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 
-DOT="$HOME/dotfiles"
+DOT="$(cd "$(dirname "$0")" && pwd)"
 
-echo "Updating dotfiles..."
+echo "Updating Rick's terminal backup..."
 
-# Core
-cp "$HOME/.bashrc" "$DOT/"
-cp "$HOME/.profile" "$DOT/" 2>/dev/null || true
-cp "$HOME/.gitconfig" "$DOT/" 2>/dev/null || true
+# Shell
+cp "$HOME/.bashrc" "$DOT/.bashrc"
+cp "$HOME/.bash_profile" "$DOT/.bash_profile"
 
-# Cinnamon settings
-dconf dump / > "$DOT/dconf-settings.conf"
+# Starship / Fastfetch
+mkdir -p "$DOT/.config/fastfetch"
+cp "$HOME/.config/starship.toml" "$DOT/.config/starship.toml"
+cp "$HOME/.config/fastfetch/config.jsonc" \
+   "$DOT/.config/fastfetch/config.jsonc"
 
-# Selected configs
-rm -rf "$DOT/.config"
-mkdir -p "$DOT/.config"
+# Konsole
+if [ -f "$HOME/.config/konsolerc" ]; then
+    cp "$HOME/.config/konsolerc" "$DOT/.config/konsolerc"
+fi
 
-cp -r "$HOME/.config/tilix" "$DOT/.config/" 2>/dev/null || true
-cp -r "$HOME/.config/cinnamon" "$DOT/.config/" 2>/dev/null || true
+if [ -f "$HOME/.local/share/konsole/Profile 1.profile" ]; then
+    mkdir -p "$DOT/.local/share/konsole"
+    cp "$HOME/.local/share/konsole/Profile 1.profile" \
+       "$DOT/.local/share/konsole/Profile 1.profile"
+fi
 
-# Launchers
-rm -rf "$DOT/.local-share-applications"
-cp -r "$HOME/.local/share/applications" "$DOT/.local-share-applications" 2>/dev/null || true
-
-# Git push
-cd "$DOT"
-git add .
-git commit -m "Update dotfiles" || true
-git push
-
-echo "Done."
+echo
+git -C "$DOT" status --short
+echo
+echo "Terminal backup updated."

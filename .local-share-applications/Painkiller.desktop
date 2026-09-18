@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Painkiller
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/2300120
-Icon=steam_icon_2300120
-Terminal=false
-Type=Application
-Categories=Game;

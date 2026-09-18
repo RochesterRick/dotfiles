@@ -1,0 +1,20 @@
+[Desktop Entry]
+DefaultProfile=Profile 1.profile
+
+[General]
+ConfigVersion=1
+
+[Notification Messages]
+CloseAllEmptyTabs=true
+CloseAllTabs=true
+ShowPasteHugeTextWarning=false
+
+[SplitView]
+SplitDragHandleSize=SplitDragHandleMedium
+
+[TabBar]
+NewTabButton=true
+TabBarUseUserStyleSheet=true
+
+[UiSettings]
+ColorScheme=

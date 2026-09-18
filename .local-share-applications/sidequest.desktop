@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=SideQuest
-Comment=SidequestVR
-Exec=/home/rick/Apps/SideQuest-0.10.42/sidequest
-Icon=
-Terminal=false
-Type=Application
-Categories=X-RaspberryPi-Robots;
-StartupNotify=true

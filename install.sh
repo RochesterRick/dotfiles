@@ -1,47 +1,61 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 
 REPO="https://github.com/RochesterRick/dotfiles.git"
 DOT="$HOME/dotfiles"
+STAMP="$(date +%Y%m%d-%H%M%S)"
+BACKUP="$HOME/.terminal-backup-$STAMP"
 
-echo "Installing Rick's dotfiles..."
+echo "Installing Rick's terminal setup..."
 
+# Get/update repo
 if [ -d "$DOT/.git" ]; then
-    cd "$DOT"
-    git pull
+    git -C "$DOT" pull
 else
     git clone "$REPO" "$DOT"
 fi
 
-cp "$HOME/.bashrc" "$HOME/.bashrc.backup.$(date +%Y%m%d-%H%M%S)" 2>/dev/null || true
+# Backup anything we're about to replace
+mkdir -p "$BACKUP"
 
-cp "$DOT/.bashrc" "$HOME/"
-cp "$DOT/.profile" "$HOME/" 2>/dev/null || true
-cp "$DOT/.gitconfig" "$HOME/" 2>/dev/null || true
+for file in \
+    "$HOME/.bashrc" \
+    "$HOME/.bash_profile" \
+    "$HOME/.config/starship.toml" \
+    "$HOME/.config/konsolerc"
+do
+    if [ -f "$file" ]; then
+        cp --parents "$file" "$BACKUP" 2>/dev/null || true
+    fi
+done
 
-mkdir -p "$HOME/.config"
-cp -r "$DOT/.config/"* "$HOME/.config/" 2>/dev/null || true
+# Shell
+cp "$DOT/.bashrc" "$HOME/.bashrc"
+cp "$DOT/.bash_profile" "$HOME/.bash_profile"
 
-if command -v dconf >/dev/null && [ -f "$DOT/dconf-settings.conf" ]; then
-    dconf load / < "$DOT/dconf-settings.conf"
-fi
+# Starship / Fastfetch
+mkdir -p "$HOME/.config/fastfetch"
+cp "$DOT/.config/starship.toml" "$HOME/.config/starship.toml"
+cp "$DOT/.config/fastfetch/config.jsonc" \
+   "$HOME/.config/fastfetch/config.jsonc"
 
-mkdir -p "$HOME/.local/share"
-mkdir -p "$HOME/.local/share/applications"
-cp -a "$DOT/.local-share-applications/." "$HOME/.local/share/applications/" 2>/dev/null || true
+# Konsole configuration, when Konsole is installed
+if command -v konsole >/dev/null 2>&1; then
+    mkdir -p "$HOME/.local/share/konsole"
 
-# Create a convenient Tabby command when the AppImage exists
-if [ -f "$HOME/apps/tabby.appimage" ]; then
-    chmod +x "$HOME/apps/tabby.appimage"
+    cp "$DOT/.config/konsolerc" \
+       "$HOME/.config/konsolerc"
 
-    mkdir -p "$HOME/.local/bin"
+    cp "$DOT/.local/share/konsole/Profile 1.profile" \
+       "$HOME/.local/share/konsole/Profile 1.profile"
 
-    ln -sf "$HOME/apps/tabby.appimage" "$HOME/.local/bin/tabby"
-
-    echo "Tabby command installed."
+    echo "Konsole configuration installed."
 else
-    echo "Tabby AppImage not found at $HOME/apps/tabby.appimage"
+    echo "Konsole not installed; skipping Konsole configuration."
 fi
 
-echo "Done."
-echo "Run: source ~/.bashrc"
+echo
+echo "Terminal configuration installed."
+echo "Backup: $BACKUP"
+echo
+echo "Open a new terminal to activate it."
